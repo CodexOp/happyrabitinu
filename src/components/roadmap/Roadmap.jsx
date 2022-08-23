@@ -1,7 +1,7 @@
 import React from 'react';
 import './roadmap.css'
 import { AiFillStar } from 'react-icons/ai';
-
+import elon from "../../assets/png/elon.png"
 
 const Roadmap = () => {
   return (
@@ -78,7 +78,11 @@ const Roadmap = () => {
         </p>
     </div>
   </div>
+</div> 
+
 </div>
+<div className="elonimage">
+<img src={elon} alt='elon' />
 </div>
 </>
 

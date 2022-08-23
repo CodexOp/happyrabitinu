@@ -10,10 +10,14 @@ html,body {
 
 }
 
+.steps::-webkit-scrollbar-corner{
+    display: none;
+    visibility: hidden ;
+}
 a{
     text-decoration: none;
     list-style: none;
-    color: #000;
+    color: #fff;
 }
 .App{
     margin: 0;

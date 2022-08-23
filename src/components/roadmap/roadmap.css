@@ -91,6 +91,18 @@ body {
 }
 
 
+.elonimage{
+  display: flex;
+  justify-content: center;
+}
+
+.elonimage img{
+  width: 500px;
+  height: auto;
+}
+
+
+
 @media(max-width:1200px){
     .steps{
         overflow: auto;
@@ -104,6 +116,12 @@ body {
         width: 200px;
 
     }
+
+    .elonimage img{
+      width: 90%;
+      height: auto;
+    }
+    
 }
 
 .icon_list{

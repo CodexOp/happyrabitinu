@@ -6,8 +6,7 @@ import moon from '../../../assets/svg/moon.svg';
 import astronaut from '../../../assets/png/Astronaut_noback.png';
 import useWindowDimensions from '../../window-dimensions/window';
 import svgButton from '../../../assets/png/NicePng_white-button-png_2084310.png';
-import whitepaper from "../../../assets/whitepaper.pdf"
-
+import whitepaper from "../../../assets/whitepaper.pdf";
 
 const MyComponent = () => {
   return (
@@ -55,8 +54,7 @@ const MyComponent = () => {
         </div>
 
         <div id="title">
-          <span>Happy Rabbit 'nu Year</span>
-          <ReactSVG className={'carrotSvg'} src={carrot}/>
+          <span>Happy Rabbit <span><img src={carrot} className="carrot_img" alt="carrot"/>nu Year</span></span>
         </div>
       </div>
   );
