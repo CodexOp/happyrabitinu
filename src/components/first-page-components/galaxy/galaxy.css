@@ -123,7 +123,7 @@
     display: flex;
     flex-direction: row;
     height: 800px;
-    width: calc(100% - 400px);
+    width: calc(100%-400px);
     left: 200px;
     justify-content: space-between;
 }
@@ -148,12 +148,17 @@
     animation: floatingAnimation ease-in-out 10s infinite;
     top: -100px;
     display: flex;
+    
+}
+
+
+body{
+    position: relative;
 }
 
 .homePageButtons {
     display: flex;
     flex-direction: column;
-    position: relative;
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 25px;
     color: white;
@@ -212,7 +217,15 @@
        width: 100%;
     
     }
-
+    .treeWay {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        height: 800px;
+        width: 100% !important;
+        left: 200px;
+        justify-content: space-between;
+    }
     
 .carrotSvg {
     position: absolute;
@@ -224,6 +237,13 @@
     left: 20%;
 }
 
+.moonSvg{
+    position: absolute;
+    width: 200px;
+    right: -60px;
+
+}
+
     .treeWay{
         left: 0;
         width: 150px;
@@ -232,10 +252,45 @@
     #title {
         font-size: 60px;
         top:10%;
+        width: 85%;
+        margin: 0;
     }
 
     .carrot_img{
         width: 50px;
         height: auto;
+    }
+}
+
+
+@media(max-width:550px){
+    .astronaut{
+        left: -100px;
+    }
+
+    .customButton{
+        width: 200px;
+    }
+
+    .wrapperButton{
+        width: 220px;
+        margin-bottom: 0 !important;
+    }
+
+    .homePageButtons {
+        margin-top: 350px;
+    }
+    .wrapperButton h1{
+        font-size: 26px;
+    }
+
+    #title{
+        top:15%;
+    }
+}
+
+@media(max-width:400px){
+    .astronaut{
+        left: -150px;
     }
 }

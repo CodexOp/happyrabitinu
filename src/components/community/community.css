@@ -135,6 +135,10 @@
     padding: 0 0 28px 0;
 }
 
+.heading_last{
+    margin-top: 100px;
+}
+
 .join-the-community__follow {
     -ms-grid-column: 1;
     -ms-grid-column-span: 6;

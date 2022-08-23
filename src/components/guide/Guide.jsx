@@ -8,7 +8,7 @@ import "./guide.css"
 
 const Guide = () => {
   return (
-    <div class="guide__items grid-12" id="guide">
+    <div class="guide__items grid-12 heading_last"  id="guide">
     <div class="heading heading--decorator guide__heading">Quick Start Guide</div>
 
         <div class="guide__item guide__item--one">

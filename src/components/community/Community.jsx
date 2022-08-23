@@ -18,13 +18,13 @@ const Community = () => {
                     <span class="join-the-community__header-name-socmedia">Twitter</span>
                     <span class="join-the-community__header-cheked"><img src={checked} alt="" class="join-the-community__header-checked-img"/></span>
                   </div>
-                  <div class="join-the-community__nick-name">https://t.me/happyrabbitinu</div>
+                  <div class="join-the-community__nick-name">@Emins0N</div>
                   <div class="join-the-community__title">I am EminsoN, Founder and CEO of Happy Rabbit Inu Year.</div>
                   <div class="join-the-community__follow">
                     <span class="follow__amount">1.3K+</span>
                     <span class="follow__followers">followers</span>
                     <div class="follow__bttn">
-                      <a target="_blank" href="https://t.me/dogelonmars" class="bttn__follow">Follow</a>
+                      <a target="_blank" href="https://twitter.com/Emins0N" class="bttn__follow">Follow</a>
                     </div>
                   </div>
                   <div class="ceo_image_section">
@@ -37,13 +37,13 @@ const Community = () => {
                     <span class="join-the-community__header-name-socmedia">Twitter</span>
                     <span class="join-the-community__header-cheked"><img src={checked} alt="" class="join-the-community__header-checked-img"/></span>
                   </div>
-                  <div class="join-the-community__nick-name">@Happyrabbitinu</div>
-                  <div class="join-the-community__title">I am HRY. Happy Rabbit Inu Year. Join Rabbtions Army and we will climb the moon...</div>
+                  <div class="join-the-community__nick-name">@HRY2023</div>
+                  <div class="join-the-community__title">I am HRY. Happy Rabbit Inu Year. Join Rabbitons Army and we will climb the moon...</div>
                   <div class="join-the-community__follow">
                     <span class="follow__amount">60K+</span>
                     <span class="follow__followers">followers</span>
                     <div class="follow__bttn">
-                      <a target="_blank" href="https://twitter.com/dogelonmars" class="bttn__follow">Follow</a>
+                      <a target="_blank" rel='noreferrer' href="https://twitter.com/HRY2023" class="bttn__follow">Follow</a>
                     </div>
                   </div>
                   <div class="join-the-community__socmedia-img-wrap">
@@ -56,13 +56,13 @@ const Community = () => {
                     <span class="join-the-community__header-name-socmedia">Telegram</span>
                     <span class="join-the-community__header-cheked"><img src={checked} alt="" class="join-the-community__header-checked-img"/></span>
                   </div>
-                  <div class="join-the-community__nick-name">https://t.me/HappyRabbitINU</div>
-                  <div class="join-the-community__title">I am HRY. Happy Rabbit Inu Year. Join Rabbtions Army and we will climb the moon...</div>
+                  <div class="join-the-community__nick-name">@HRY2023</div>
+                  <div class="join-the-community__title">I am HRY. Happy Rabbit Inu Year. Join Rabbitons Army and we will climb the moon...</div>
                   <div class="join-the-community__follow">
                     <span class="follow__amount">14K+</span>
                     <span class="follow__followers">followers</span>
                     <div class="follow__bttn">
-                      <a target="_blank" href="https://t.me/dogelonmars" class="bttn__follow">Follow</a>
+                      <a target="_blank" href="https://t.me/HRY2023" class="bttn__follow">Follow</a>
                     </div>
                   </div>
                   <div class="join-the-community__socmedia-img-wrap">
