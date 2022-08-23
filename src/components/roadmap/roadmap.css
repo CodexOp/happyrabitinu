@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #001829;
+}
+
+.wrapper {
+    padding: 50px 0;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.step {
+  display: flex;
+  width: 400px;
+  position: relative;
+}
+.step:after {
+    content:'';
+    position:absolute;
+    display:block;
+    top:9%;
+    height:2px;
+    width: 95%;
+    background:#FDC40F;
+    left:54%;
+    z-index:1;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+}
+.step .info {
+  margin: 40px 0 20px;
+}
+.step .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: white;
+}
+.step .text {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.7);
+  padding-bottom: 0;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.step .text p{
+  margin-top: 10px;
+}
+
+.number {
+  width: 32px;
+  align-items: center;
+  height: 32px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #FDC40F;
+  flex-shrink: 0;
+  z-index: 100;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: centere;
+  color: #000;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 14px;
+}
+.number.completed {
+  background-color: #FDC40F;
+}
+.number svg {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+}
+.number svg path {
+  fill: white;
+}
+
+
+@media(max-width:1200px){
+    .steps{
+        overflow: auto;
+    }
+
+    .step{
+        width: 400px;
+    }
+
+    .step .info{
+        width: 200px;
+
+    }
+}
+
+.icon_list{
+  margin-right: 5px;
+}
