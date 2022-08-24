@@ -304,7 +304,7 @@ body{
     #title{
         top:15%;
         height: 200px;
-        font-size: 2rem;
+        font-size: 3rem;
     }
 
     #title span{
@@ -315,6 +315,6 @@ body{
     }
 
     .astronaut{
-        left: -100px;
+        left: -50px;
     }
 }
