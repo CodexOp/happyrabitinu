@@ -87,6 +87,8 @@
     margin: auto;
 }
 
+
+
 #title span {
     background: -webkit-linear-gradient(#d0cd52, #fd7100);
     -webkit-background-clip: text;
@@ -263,9 +265,9 @@ body{
 }
 
 
-@media(max-width:550px){
+@media(max-width:600px){
     .astronaut{
-        left: -100px;
+        align-self: center;
     }
 
     .customButton{
@@ -279,18 +281,40 @@ body{
 
     .homePageButtons {
         margin-top: 350px;
+        display: none;
     }
     .wrapperButton h1{
         font-size: 26px;
     }
 
+    .moonSvg{
+    display: none;
+
+}
+
     #title{
-        top:15%;
+        top:20%;
+        width:100%;
+        height: 100px;
+        font-size: 1.5rem;
     }
 }
 
 @media(max-width:400px){
+    #title{
+        top:15%;
+        height: 200px;
+        font-size: 2rem;
+    }
+
+    #title span{
+
+        display: block;
+        margin-top: 10px;
+
+    }
+
     .astronaut{
-        left: -150px;
+        left: -100px;
     }
 }

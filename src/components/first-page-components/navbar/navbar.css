@@ -65,6 +65,9 @@
     display: none;
   }
 
+  .Homepagebuttons{
+    display: none;
+  }
 
   
   @media (max-width:600px) {
@@ -114,4 +117,18 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+
+    .Homepagebuttons {
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      flex-direction: column;
+       justify-content: center;
+       width: 200px;
+    }
+
+.Homepagebuttons .wrapperButton h1 {
+    position: absolute;
+}
+
   }

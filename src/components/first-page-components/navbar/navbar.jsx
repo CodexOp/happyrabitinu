@@ -2,11 +2,14 @@ import React from 'react';
 import "./navbar.css"
 import logo from "../../../assets/png/STRAIGHT_LOGO.png";
 import bootstrap from 'bootstrap'
+import svgButton from '../../../assets/png/NicePng_white-button-png_2084310.png';
+import whitepaper from "../../../assets/whitepaper.pdf";
+import Homepagebuttons from '../navbar/Homepagebuttons';
 
 const MyComponent = () => {
-    return (
-        <div className="nav_outer">
-        <div class="nav">
+  return (
+    <div className="nav_outer">
+      <div class="nav">
         <input type="checkbox" id="nav-check"/>
         <div class="nav-header">
           <div class="nav-title">
@@ -21,18 +24,26 @@ const MyComponent = () => {
             <span></span>
           </label>
         </div>
-        
+
         <div class="nav-links">
-          <a href="#"><li>Home</li></a>
+          <a href="#">
+            <li>Home</li>
+          </a>
           <a href="#roadmap">CarrotMap</a>
           <a href="#partners">Rabbitners</a>
           <a href="#community">Rabbitons</a>
           <a href="#guide">Guide</a>
-        </div>
+          <div className="Homepagebuttons">
+          <Homepagebuttons
+            svgButton={svgButton}
+            whitepaper={whitepaper}/>
+          </div>
+          </div>
+
       </div>
-      </div>
-        
-    );
+    </div>
+
+  );
 };
 
 export default MyComponent;
