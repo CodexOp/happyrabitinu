@@ -6,6 +6,23 @@
     grid-gap: 20px 32px;
 }
 
+#guide{
+    padding-bottom: 50px;
+}
+
+.footer{
+    background: rgba(0,0,0,0.6);
+    padding: 20px 0;
+  
+}
+
+.footer_text{
+    color:#fff;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
 .guide__item--one {
     grid-column: 1/4;
     margin-bottom: 30px;
@@ -105,6 +122,8 @@
     color: rgba(255, 255, 255, 0.05);
 }
 
+
+
 .guide-item__img-wrap {
     -ms-grid-row: 1;
     grid-row: 1;
@@ -161,10 +180,7 @@
 }
 
 
-.guide__items {
-    width: 95%;
-    margin: auto;
-}
+
 }
 
 @media (max-width: 525px){
@@ -172,6 +188,10 @@
     grid-column: 1/13;
 }
 
+.guide__items {
+    width: 95%;
+    margin: auto;
+}
 
 .guide__item--one {
     grid-column: 1/13;

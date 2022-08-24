@@ -8,6 +8,7 @@ import "./guide.css"
 
 const Guide = () => {
   return (
+    <>
     <div class="guide__items grid-12 heading_last"  id="guide">
     <div class="heading heading--decorator guide__heading">Quick Start Guide</div>
 
@@ -53,6 +54,10 @@ const Guide = () => {
             token’ and enter the token address or search for it on the tokens list.</div>
         </div>
       </div>
+      <div className="footer">
+      <p className='footer_text'>@2022 Happy Rabbit Inu Year. All rights reserved.</p>
+      </div>
+      </>
   )
 }
 
