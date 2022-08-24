@@ -7,7 +7,7 @@ function Homepagebuttons({svgButton,whitepaper}) {
   return (
   
       <>
-      <a href='https://poocoin.app/tokens/0xc27629fb38a0021e9aac3c6f107b9baec0e576eb'>
+      <a href='https://pancakeswap.finance/swap?outputCurrency=0xC27629fB38a0021e9aAc3C6f107b9Baec0E576eb'>
             <div className="wrapperButton">
               <img src={svgButton} className="customButton" alt="images"/>
               <h1 className={'buyNowText'}>BUY NOW</h1>
